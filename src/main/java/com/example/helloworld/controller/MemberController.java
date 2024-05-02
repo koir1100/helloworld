@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@Tag(name="MemberService", description="회원 관련")
+@Tag(name="MemberController", description="회원 관련")
 @RequestMapping(path="/api/")
 @RestController
-public class MemberService {
+public class MemberController {
 	
 	@Operation(summary="회원조회")
 	@GetMapping("/members")
